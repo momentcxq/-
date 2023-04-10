@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PrintApp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/PrintApp.res" /d "NDEBUG" "C:\WinPrgS\Chap08\PrintApp\PrintApp.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1361.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/PrintApp.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\WinPrgS\Chap08\PrintApp\MainFrm.cpp"
+"C:\WinPrgS\Chap08\PrintApp\PrintApp.cpp"
+"C:\WinPrgS\Chap08\PrintApp\PrintAppDoc.cpp"
+"C:\WinPrgS\Chap08\PrintApp\PrintAppView.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1361.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1362.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/PrintApp.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\WinPrgS\Chap08\PrintApp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1362.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1363.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PrintApp.pdb" /machine:I386 /out:"Release/PrintApp.exe" 
+.\Release\MainFrm.obj
+.\Release\PrintApp.obj
+.\Release\PrintAppDoc.obj
+.\Release\PrintAppView.obj
+.\Release\StdAfx.obj
+.\Release\PrintApp.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1363.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+PrintApp.cpp
+PrintAppDoc.cpp
+PrintAppView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PrintApp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
